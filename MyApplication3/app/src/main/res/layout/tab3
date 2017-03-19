@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:id="@+id/tab3">
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/userip3"
+        android:layout_alignBaseline="@+id/checkbox"
+        android:layout_alignBottom="@+id/checkbox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:text="Do you use phone for development purposes"
+        android:id="@+id/userip1"
+        android:layout_alignBaseline="@+id/checkbox"
+        android:layout_alignBottom="@+id/checkbox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check if yes"
+        android:id="@+id/checkbox"
+        android:layout_alignRight="@+id/checkbox2"
+        android:layout_alignEnd="@+id/checkbox2" />
+
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:text="Do you always keep Bluetooth open"
+        android:id="@+id/userip2"
+        android:layout_below="@+id/userip1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="134dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check if yes"
+        android:id="@+id/checkbox2"
+        android:checked="false"
+        android:layout_alignTop="@+id/userip2"
+        android:layout_toRightOf="@+id/userip2"
+        android:layout_toEndOf="@+id/userip2" />
+
+</RelativeLayout>

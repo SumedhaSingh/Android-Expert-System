@@ -1,8 +1,6 @@
 package com.example.demo.myapplication;
 
-/**
- * Created by Saksham on 6/21/15.
- */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
